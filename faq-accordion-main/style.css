@@ -1,0 +1,96 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Work Sans';
+    max-inline-size: 1440px;
+    background-image: url('./assets/images/background-pattern-desktop.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: hsl(275, 100%, 97%);
+    color:hsl(0, 0%, 8%);
+    padding: 10px 50px ;
+    position: relative;
+
+}
+
+div {
+    display: flex;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+h1{
+    font-size: 3rem;
+    text-align: center;
+    color: hsl(292, 42%, 14%);
+}
+
+h2{
+    color: hsl(292, 16%, 49%);
+}
+
+img{
+    display: block;
+    max-inline-size: 100%;
+}
+
+button{
+    min-inline-size: 50px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    border: none;
+    background-color: hsl(0, 100%, 100%);
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+p{
+    color:hsl(0, 0%, 20%);
+    padding: 15px;
+}
+
+a{
+    color:blueviolet;
+    text-decoration: none;
+}
+
+.images{
+    background-size: cover;
+}
+
+a:hover{
+    color:chocolate
+}
+
+.top-sec{
+    border: solid black 2px;
+    z-index:1;
+}
+
+.wrapper{
+    background-color: hsl(0, 100%, 100%);
+    font-size: 1.09rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:  50px;
+    max-inline-size: 650px;
+    min-block-size: 630px;
+    border-radius: 15px;
+    padding: 30px;
+    box-shadow: 10px 10px 20px hsl(292, 16%, 49%);
+}
+
+.images{
+    inline-size: 1440px;
+}
+
+
+.attribution{
+    font-weight: bold;
+    color: hsl(0, 0%, 0%);
+    justify-content: center;
+}

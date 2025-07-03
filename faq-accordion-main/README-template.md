@@ -24,6 +24,9 @@ The main challenge was implementing the JavaScript logic to toggle each FAQ answ
 
 Because of this, my first approach was only targeting one element at a time rather than all.
 
+### screenshot 
+![](./assets/images/Screenshot_3-7-2025_20538_.jpeg)
+
 ## How I fixed it:
 
 Switched to using document.querySelectorAll() to grab all buttons, paragraphs, and icons as NodeLists.

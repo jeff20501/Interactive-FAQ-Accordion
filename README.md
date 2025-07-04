@@ -20,6 +20,9 @@
 ## Overview
 This project is an interactive FAQ Accordion built using semantic HTML, custom CSS, and vanilla JavaScript. The goal was to create a clean and user-friendly FAQ section where users can reveal and hide answers by clicking on a plus icon, which then toggles to a minus icon when the section is open.
 
+## Screenshot
+![](./faq-accordion-main/assets/images/Screenshot_3-7-2025_20538_.jpeg)
+
 ### The challenge
 
 The main challenge was implementing the JavaScript logic to toggle each FAQ answer correctly. Initially, I was using querySelector, which only selects a single element, instead of querySelectorAll, which selects all matching elements and returns a NodeList.
